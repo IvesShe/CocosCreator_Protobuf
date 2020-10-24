@@ -1,0 +1,14 @@
+package PbLobby;
+syntax = "proto3";
+
+enum Cmd {
+    CMD_BEGIN = 0;
+    CMD_KEEPALIVED_C2S      = 10000;   // 心跳包測試
+    CMD_LOGIN_C2S2C         = 10001;   // 登錄
+}
+
+message Test1{
+    int32 id = 1;       // 活動ID
+    string name = 2;    // 名字
+    string sex = 3;     // 性別
+}
