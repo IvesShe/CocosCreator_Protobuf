@@ -2,7 +2,7 @@
 
 動手實作練習
 
-本案例為動態加載proto檔(protobuf3)，透過protobuf.js，去實際protobuf
+本案例為動態加載proto檔(protobuf3)，透過protobuf.js，去實現protobuf
 
 # 下載protobuf
 
